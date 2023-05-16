@@ -1,12 +1,19 @@
 # Test supertokens
 
-- https://supertokens.com/docs/passwordless/introduction
-- [Using SuperTokens with Angular and Firebase](https://medium.com/@dleangen/using-supertokens-with-angular-and-firebase-61f5c6df4fbb)
+- https://supertokens.com/docs/emailpassword/introduction
 
-## Frontend
+
+## Install
 
 ```bash
-ng new client
-npm i -s supertokens-auth-react react react-dom @types/react-dom
-
+npx create-supertokens-app@latest --recipe=emailpassword
 ```
+
+## Run
+
+```bash
+cd my-app
+npm run start
+```
+
+- http://localhost:3000
